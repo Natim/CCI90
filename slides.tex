@@ -1,0 +1,56 @@
+\pdfminorversion=4
+\documentclass[english]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\fontspec{Droid Sans}
+\fontspec{DejaVu Sans Mono}
+\setmainfont[Scale = 0.9]{Droid Sans}
+\setsansfont[Scale = 0.9]{Droid Sans}
+\setmonofont[Scale = 0.8]{DejaVu Sans Mono}
+\newfontfamily\frametitlefont{Cabin Bold}
+
+\usetheme[alternativetitlepage=true,titleline=true]{Torino}
+\usecolortheme{nouvelle}
+\title{\frametitlefont{Le logiciel libre et le Web 2.0}}
+\subtitle{{\small Deux mondes intimement liés}}
+\author{Rémy Hubscher \and Jérémie Laval}
+\date{}
+
+\hypersetup{
+  pdftitle={Le logiciel libre et le Web 2.0},
+  pdfauthor={Rémy Hubscher et Jérémie Laval},
+  unicode=true,
+  pdfsubject={Bleh}
+}
+
+\newenvironment{litemize}
+{\begin{itemize}
+  \setlength{\itemsep}{1.5em}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}}
+{\end{itemize}}
+
+\newenvironment{llitemize}
+{\begin{itemize}
+  \setlength{\itemsep}{0.35em}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}}
+{\end{itemize}}
+
+\begin{document}
+
+% Infos page
+\frame[t,plain]{\titlepage}
+
+% Plan
+\begin{frame}[t,plain]{\frametitlefont{Plan}}
+  \tableofcontents
+\end{frame}
+
+
+\end{document}
